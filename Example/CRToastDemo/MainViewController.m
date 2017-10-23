@@ -97,10 +97,11 @@
 }
 
 - (void)layoutSubviews {
-    self.scrollView.contentInset = UIEdgeInsetsMake([self.topLayoutGuide length],
-                                                    0,
-                                                    [self.bottomLayoutGuide length],
-                                                    0);
+    if (@available(iOS 11, *)) {
+        self.scrollView.contentInset = UIEdgeInsetsZero;
+    } else {
+        self.scrollView.contentInset = UIEdgeInsetsMake([self.topLayoutGuide length], 0, [self.bottomLayoutGuide length], 0);
+    }
 }
 
 - (void)viewWillLayoutSubviews {

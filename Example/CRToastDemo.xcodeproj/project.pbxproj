@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F49E03C1F9DEBF70071A316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F49E03B1F9DEBF70071A316 /* LaunchScreen.storyboard */; };
 		464D04F01BD2258200E0E90A /* CRToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464D04E61BD2248100E0E90A /* CRToast.framework */; };
 		464D04F11BD2258200E0E90A /* CRToast.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 464D04E61BD2248100E0E90A /* CRToast.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E2FFB5718367C01003333F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2FFB5618367C01003333F8 /* Foundation.framework */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F49E03B1F9DEBF70071A316 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		464D04DF1BD2248100E0E90A /* CRToast.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CRToast.xcodeproj; path = ../CRToast.xcodeproj; sourceTree = "<group>"; };
 		5E2FFB5318367C01003333F8 /* CRToastDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRToastDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2FFB5618367C01003333F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -146,6 +148,7 @@
 				5E2FFB8B18367CA3003333F8 /* MainViewController.h */,
 				5E2FFB8C18367CA3003333F8 /* MainViewController.m */,
 				5E2FFB8D18367CA3003333F8 /* MainViewController.xib */,
+				3F49E03B1F9DEBF70071A316 /* LaunchScreen.storyboard */,
 				5E2FFB6818367C01003333F8 /* Images.xcassets */,
 				5E2FFB5D18367C01003333F8 /* Supporting Files */,
 			);
@@ -193,11 +196,6 @@
 			attributes = {
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Collin Ruffenach";
-				TargetAttributes = {
-					5E2FFB5218367C01003333F8 = {
-						DevelopmentTeam = 7AM27DZVQU;
-					};
-				};
 			};
 			buildConfigurationList = 5E2FFB4E18367C01003333F8 /* Build configuration list for PBXProject "CRToastDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -252,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E2FFB6118367C01003333F8 /* InfoPlist.strings in Resources */,
+				3F49E03C1F9DEBF70071A316 /* LaunchScreen.storyboard in Resources */,
 				5E2FFB8F18367CA3003333F8 /* MainViewController.xib in Resources */,
 				5E2FFB6918367C01003333F8 /* Images.xcassets in Resources */,
 			);
@@ -391,18 +390,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CRToastDemo/CRToastDemo-Prefix.pch";
 				GCC_WARN_PEDANTIC = YES;
 				INFOPLIST_FILE = "CRToastDemo/CRToastDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CRToastDemo;
@@ -416,18 +415,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CRToastDemo/CRToastDemo-Prefix.pch";
 				GCC_WARN_PEDANTIC = YES;
 				INFOPLIST_FILE = "CRToastDemo/CRToastDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CRToastDemo;
