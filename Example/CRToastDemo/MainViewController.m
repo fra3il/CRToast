@@ -94,6 +94,13 @@
         self.edgesForExtendedLayout = UIRectEdgeAll;
     
     [self updateImageTintSwitch]; // So our `onTint` is correct the first time we see it
+
+    self.txtNotificationMessage.text = @"Status bar text ( center aligned) doesn't show up in iPhone X #226";
+    self.txtSubtitleMessage.text = @"https://github.com/cruffenach/CRToast/issues/226";
+
+    if (@available(iOS 11, *)) {
+        self.navigationController.navigationBar.prefersLargeTitles = YES;
+    }
 }
 
 - (void)layoutSubviews {
